@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+#game {
+    width: 100vw;
+    height: 100vh;
+    background-color: #0b4a3d;
+    position: relative;
+}
+#player {
+    height: 120px;
+    width: 100px;
+    background-image: url("../image/nils.png");
+    background-size: cover;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+#door {
+    width: 150px;
+    height: 200px;
+    background-image: url("../image/jungpaulgürteltier.png");
+    background-size: cover;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.obstacle {
+    width: 80px;
+    height: 80px;
+    background-image: url("../image/diorsauvage.png");
+    background-size: cover;
+    position: absolute;
+}
+
+.justTrolling
+{
+    width: 80px;
+    height: 80px;
+    background-image: url("../image/diorsauvage.png");
+    background-size: cover;
+    position: absolute;
+}
+
+.getFucked
+{
+    width: 80px;
+    height: 80px;
+    background-image: url("../image/joophomme.png");
+    background-size: cover;
+    position: absolute;
+}

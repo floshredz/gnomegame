@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+#game {
+    width: 100vw;
+    height: 100vh;
+    background-color: #6e0722;
+    position: relative;
+}
+#player {
+    height: 120px;
+    width: 200px;
+    background-image: url("../image/flo.png");
+    background-size: cover;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+#door {
+    width: 250px;
+    height: 200px;
+    background-image: url("../image/testo.png");
+    background-size: cover;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.obstacle {
+    width: 90px;
+    height: 100px;
+    background-image: url("../image/kreatin.png");
+    background-size: cover;
+    position: absolute;
+}
+
+.justTrolling {
+    width: 90px;
+    height: 100px;
+    background-image: url("../image/kreatin.png");
+    background-size: cover;
+    position: absolute;
+}
+
+.getFucked {
+    width: 80px;
+    height: 80px;
+    background-image: url("../image/lauch.png");
+    background-size: cover;
+    position: absolute;
+}
